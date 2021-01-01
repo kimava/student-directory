@@ -1,0 +1,116 @@
+{
+  "items": [
+    {
+      "name": "Ava",
+      "gender": "female",
+      "class": "drawing",
+      "enrolled": "Y",
+      "image": "../imgs/profile1.jpg"
+    },
+    {
+      "name": "Dasom",
+      "gender": "female",
+      "class": "cooking",
+      "enrolled": "N",
+      "image": "../imgs/profile2.jpg"
+    },
+    {
+      "name": "Elodie",
+      "gender": "female",
+      "class": "coding",
+      "enrolled": "Y",
+      "image": "../imgs/profile3.jpg"
+    },
+    {
+      "name": "John",
+      "gender": "male",
+      "class": "knitting",
+      "enrolled": "Y",
+      "image": "../imgs/profile4.jpg"
+    },
+    {
+      "name": "Yura",
+      "gender": "female",
+      "class": "knitting",
+      "enrolled": "N",
+      "image": "../imgs/profile5.jpg"
+    },
+    {
+      "name": "Lily",
+      "gender": "female",
+      "class": "cooking",
+      "enrolled": "N",
+      "image": "../imgs/profile6.jpg"
+    },
+    {
+      "name": "Harry",
+      "gender": "male",
+      "class": "drawing",
+      "enrolled": "Y",
+      "image": "../imgs/profile7.jpg"
+    },
+    {
+      "name": "Mina",
+      "gender": "female",
+      "class": "knitting",
+      "enrolled": "Y",
+      "image": "../imgs/profile8.jpg"
+    },
+    {
+      "name": "Hanna",
+      "gender": "female",
+      "class": "drawing",
+      "enrolled": "N",
+      "image": "../imgs/profile9.jpg"
+    },
+    {
+      "name": "Jenny",
+      "gender": "female",
+      "class": "knitting",
+      "enrolled": "N",
+      "image": "../imgs/profile10.jpg"
+    },
+    {
+      "name": "Chloe",
+      "gender": "female",
+      "class": "knitting",
+      "enrolled": "Y",
+      "image": "../imgs/profile11.jpg"
+    },
+    {
+      "name": "May",
+      "gender": "female",
+      "class": "coding",
+      "enrolled": "Y",
+      "image": "../imgs/profile12.jpg"
+    },
+    {
+      "name": "Summer",
+      "gender": "female",
+      "class": "cooking",
+      "enrolled": "Y",
+      "image": "../imgs/profile13.jpg"
+    },
+    {
+      "name": "Eve",
+      "gender": "female",
+      "class": "knitting",
+      "enrolled": "N",
+      "image": "../imgs/profile14.jpg"
+    },
+    {
+      "name": "Fred",
+      "gender": "male",
+      "class": "cooking",
+      "enrolled": "N",
+      "image": "../imgs/profile15.jpg"
+    },
+    {
+      "name": "George",
+      "gender": "male",
+      "class": "coding",
+      "enrolled": "Y",
+      "image": "../imgs/profile16.jpg"
+    }
+  ]
+}
