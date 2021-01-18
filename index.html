@@ -3,9 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student List</title>
+    <title>Student Directory</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="src/app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1>Student Directory</h1>
+    <div class="container">
+      <section class="tab-menu">
+        <button class="tab-menu__btn">Filter</button>
+      </section>
+      <section class="cards"></section>
+    </div>
+
+    <section class="filter invisible">
+      <button class="filter__btn">X</button>
+      <div class="filter-group">
+        <h1 class="filter-group__title">Class</h1>
+        <ul class="filter-group__category">
+          <li>
+            <input type="checkbox" data-key="class" data-value="coding">coding</input>
+          </li>
+          <li>
+            <input type="checkbox" data-key="class" data-value="cooking">cooking</input>
+          </li>
+          <li>
+            <input type="checkbox" data-key="class" data-value="drawing">drawing</input>
+          </li>
+          <li>
+            <input type="checkbox" data-key="class" data-value="knitting">knitting</input>
+          </li>
+        </ul>
+      </div>
+      <div class="filter-group">
+        <h1 class="filter-group__title">Enrolled</h1>
+        <ul class="filter-group__category">
+          <li><input type="checkbox" data-key="enrolled" data-value="Y">Y</input></li>
+          <li><input type="checkbox" data-key="enrolled" data-value="N">N</input></li>
+        </ul>
+      </div>
+    </section>
+
+  </body>
 </html>
