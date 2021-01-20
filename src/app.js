@@ -44,3 +44,15 @@ loadCards().then((items) => {
   const container = document.querySelector('.cards');
   container.append(...elements);
 });
+
+const filterOpenBtn = document.querySelector('.tab-menu__btn');
+const filterCloseBtn = document.querySelector('.filter__btn');
+const filter = document.querySelector('.filter');
+
+filterOpenBtn.addEventListener('click', () => {
+  filter.classList.remove('invisible');
+});
+
+filterCloseBtn.addEventListener('click', () => {
+  filter.classList.add('invisible');
+});
