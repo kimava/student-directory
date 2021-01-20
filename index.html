@@ -18,30 +18,45 @@
 
     <section class="filter invisible">
       <button class="filter__btn">X</button>
-      <div class="filter-group">
+      <form action="">
+
         <h1 class="filter-group__title">Class</h1>
-        <ul class="filter-group__category">
-          <li>
-            <input type="checkbox" data-key="class" data-value="coding">coding</input>
-          </li>
-          <li>
-            <input type="checkbox" data-key="class" data-value="cooking">cooking</input>
-          </li>
-          <li>
-            <input type="checkbox" data-key="class" data-value="drawing">drawing</input>
-          </li>
-          <li>
-            <input type="checkbox" data-key="class" data-value="knitting">knitting</input>
-          </li>
-        </ul>
-      </div>
-      <div class="filter-group">
-        <h1 class="filter-group__title">Enrolled</h1>
-        <ul class="filter-group__category">
-          <li><input type="checkbox" data-key="enrolled" data-value="Y">Y</input></li>
-          <li><input type="checkbox" data-key="enrolled" data-value="N">N</input></li>
-        </ul>
-      </div>
+
+        <label for="coding" class="filter-group">
+          <input type="radio" name="class" value="coding" id="coding"></input>
+          <span>coding</span>
+        </label>
+
+        <label for="cooking" class="filter-group">
+          <input type="radio" name="class" value="cooking" id="cooking"></input>
+          <span>cooking</span>
+        </label>
+
+        <label for="drawing" class="filter-group">
+          <input type="radio" name="class" value="drawing" id="drawing"></input>
+          <span>drawing</span>
+        </label>
+
+        <label for="knitting" class="filter-group">
+          <input type="radio" name="class" value="knitting" id="knitting"></input>
+          <span>knitting</span>
+        </label>
+
+
+      <h1 class="filter-group__title">Enrolled</h1>
+
+      <label for="Y" class="filter-group">
+        <input type="radio" name="enrolled" value="Y" id="Y"></input>
+        <span>Y</span>
+      </label>
+      <label for="N" class="filter-group">
+        <input type="radio" name="enrolled" value="N"  id="N"></input>
+        <span>N</span>
+      </label>
+
+      <input type="reset" class="reset-btn">
+  
+      </form>
     </section>
 
   </body>
