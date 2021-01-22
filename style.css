@@ -173,4 +173,16 @@ h1 {
 
 /* < 768px */
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: var(--font-medium);
+  }
+
+  .filter {
+    width: 50%;
+    background-color: var(--color-white);
+  }
+
+  .filter-group__title {
+    font-size: var(--font-regular);
+  }
 }
