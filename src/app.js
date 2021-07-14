@@ -1,9 +1,11 @@
+//fetch student data from data.json file
 function loadCards() {
   return fetch('data/data.json')
     .then((response) => response.json())
     .then((json) => json.items);
 }
 
+//create student cards from the data
 function createElement(item) {
   const div = document.createElement('div');
   div.setAttribute('class', 'card');
@@ -39,6 +41,7 @@ function createElement(item) {
   return div;
 }
 
+//filter the student cards by category
 function onRadioClick(event, items) {
   const key = event.target.name;
   const value = event.target.value;
@@ -76,6 +79,7 @@ function checkOhterFilter(items, key, value) {
   updateCards(items, key, value, secondKey, secondValue);
 }
 
+//show filtered cards only
 function updateCards(items, key, value, secondKey, secondValue) {
   items.forEach((item) => {
     if (
@@ -95,6 +99,8 @@ function resetFilter(items) {
   });
 }
 
+//append created student cards to the container
+//and set eventlistener
 loadCards().then((items) => {
   const elements = items.map(createElement);
   const container = document.querySelector('.cards');
@@ -117,6 +123,7 @@ loadCards().then((items) => {
   });
 });
 
+//open and close filter section
 const filterOpenBtn = document.querySelector('.tab-menu__btn');
 const filterCloseBtn = document.querySelector('.filter__btn');
 const filter = document.querySelector('.filter');
